@@ -1,45 +1,53 @@
-.gitignore fil:
-
-# Gradle
-
-.gradle/
-
-build/
-
-!gradle/wrapper/gradle-wrapper.jar
-
-.gradle-cache/
-
-# IntelliJ IDEA
-
-.idea/
-
-*.iml
-
-*.ipr
-
-*.iws
-
-out/
-
-# Kotlin/Java
-
-*.class
-
-*.jar
-
-*.war
-
-*.ear
-
-*.log
-
-# OS-specific
-
-.DS_Store
-
-Thumbs.db
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.idea
+# FastAPI
+instance/
+*.db
+*.sqlite3
 
 # Logs
-
 *.log
+*.out
+*.err
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.tox/
+.nox/
+coverage/
+*.cover
+*.py,cover
+.hypothesis/
+
+# Virtual environments
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Docker
+*.pid
